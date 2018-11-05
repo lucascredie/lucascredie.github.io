@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,900');
+
+
+html {
+    overflow: visible;
+}
+body{
+    /* background-color:#fff; */
+    background: rgb(32, 32, 32);
+    margin: 0px;
+    /* height: 100%; */
+    font-family: 'Lato', sans-serif;
+    /* overflow: hidden; */
+}
+
+h1 {
+    display: none;
+}
+
+.top-bar {
+    margin-top: 15px;
+    height: 5px;
+    width: 0px;
+    background: rgb(100, 254, 177); 
+    /* border-bottom: 2px solid rgba(95, 226, 134, 0.6); */
+}
+.wrap {
+    background: white;
+    display: grid;
+    grid-template-columns: 8fr 8fr 1fr;
+    min-height: 550px;
+}
+
+#name-animation{
+    margin-top: 150px;
+    margin-left: -6.6%;
+    /* background-color:#fff; */
+    min-width:320px;
+    height:40%;
+    opacity: 0.9;
+    animation-name: name-position;
+    animation-delay: 3s;
+    animation-duration: 1.2s;
+    animation-fill-mode: forwards;
+}
+
+.content {
+    /* text-align: center; */
+    padding: 0px 25px;
+    opacity: 0;
+    animation-name: fade-in;
+    animation-delay: 3s;
+    animation-duration: 1.2s;
+    animation-fill-mode: forwards;
+}
+
+.description {
+    color: rgb(100, 100, 100);
+    font-weight: 200;
+}
+.logo-container {
+    margin-top: 30px;
+    width: 320px;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+.logo {
+    opacity: 0;
+    height: 30px;
+    
+}
+
+.links {
+    /* background: red; */
+    /* display: flex;
+    flex-direction: column; */
+    
+}
+
+#machine-animation {
+    opacity: 0;
+    animation-name: fade-in;
+    animation-delay: 3s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    height: 480px;
+}
+.logo-link {
+    height: 40px;
+    width: 40px;
+    margin-top: 20px;
+    opacity: 0.9;
+    transition: 200ms;
+    border-radius: 100%;
+}
+
+.logo-link:hover {
+    opacity: 0.9;
+    transition: 200ms;
+    transform: scale(1.2, 1.2);
+    background: rgb(100, 254, 177);
+}
+footer {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: white;
+    height: 50px;
+    background: rgb(32, 32, 32);
+}
+
+h4 {
+    font-size: 12px;
+    font-weight: 300;
+    text-align: right;
+    color: rgb(199, 199, 199);
+}
+
+@keyframes fade-in {
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+@keyframes name-position {
+    
+    from{margin-top: 150px;}
+    to{margin-top: 0px;}
+}
+
+
+@media screen and (max-width: 750px) {
+    .wrap {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto
+    }
+
+    #name-animation{
+        margin-left: -4%;
+    }
+    .links {
+        display: flex;
+        align-content: center;
+        justify-content: space-between;
+        margin: 15px 80px;
+        grid-row-start: 1;
+    }
+   
+}
