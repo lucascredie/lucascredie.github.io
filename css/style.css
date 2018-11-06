@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,900');
 
-
 html {
     overflow: visible;
 }
@@ -58,7 +57,15 @@ h1 {
     color: rgb(100, 100, 100);
     font-weight: 200;
 }
-.logo-container {
+.container {
+    margin-top: 30px;
+    max-width: 320px;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.button-container {
     margin-top: 30px;
     max-width: 320px;
     display: flex;
@@ -67,17 +74,29 @@ h1 {
 }
 .logo {
     opacity: 0;
-    height: 30px;
+    height: 30px;   
+}
+
+.buttons {
+    margin: 100px 0px;
+    max-width: 500px;
     
 }
 
-.links {
-    /* background: red; */
-    /* display: flex;
-    flex-direction: column; */
-    
-}
+.button {
+    text-decoration: none;
+    background: rgb(100, 254, 177);
+    padding: 15px 30px;
+    color: rgb(32, 32, 32);
+    transition: 300ms;
+    text-align: center;
+    border-radius: 2px;
 
+}
+.button:hover {
+    transform: translateY(-5px);
+    transition: 300ms;
+}
 #machine-animation {
     opacity: 0;
     animation-name: fade-in;
@@ -144,5 +163,24 @@ h4 {
         margin: 15px 80px;
         grid-row-start: 1;
     }
-   
+}
+
+@media screen and (max-width: 450px) {
+    .button-container {
+        margin-top: 30px;
+        max-width: 320px;
+        display: flex;
+        align-content: center;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .button {
+        margin-top: 10px;
+    }
+
+    .button:hover {
+        transform: scale(1.05, 1.05);
+    }
+
 }

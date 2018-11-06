@@ -1,15 +1,19 @@
+window.onload = loaded;
 
-var params = {
-        container: document.getElementById('name-animation'),
-        renderer: 'svg',
-        loop: false,
-        autoplay: true,
-        path: 'name.json'
-        // animationData: animationData
-};
 
-var anim;
-
-anim = lottie.loadAnimation(params);
-
-lottie.setQuality('low');
+function loaded() {
+        var params = {
+                container: document.getElementById('name-animation'),
+                renderer: 'svg',
+                loop: false,
+                autoplay: true,
+                path: 'name.json'
+                // animationData: animationData
+        };
+        
+        var anim;
+        
+        anim = lottie.loadAnimation(params);
+        
+        // lottie.setQuality('low');
+}
