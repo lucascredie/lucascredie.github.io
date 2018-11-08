@@ -3,6 +3,7 @@
 html {
     overflow: visible;
 }
+
 body{
     /* background-color:#fff; */
     background: rgb(32, 32, 32);
@@ -26,7 +27,7 @@ h1 {
 .wrap {
     background: white;
     display: grid;
-    grid-template-columns: 8fr 8fr 1fr;
+    grid-template-columns: 1fr 1fr 60px;
     min-height: 550px;
 }
 
