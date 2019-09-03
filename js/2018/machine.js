@@ -4,7 +4,7 @@ var params2 = {
     renderer: 'svg',
     loop: true,
     autoplay: false,
-    path: 'machine.json'
+    path: '../animations/machine.json'
     // animationData: animationData
 };
 

@@ -7,7 +7,7 @@ function loaded() {
                 renderer: 'svg',
                 loop: false,
                 autoplay: true,
-                path: 'name.json'
+                path: '../animations/name.json'
                 // animationData: animationData
         };
         
