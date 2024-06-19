@@ -4,7 +4,7 @@ var journey = {
         url1: "../../photos/lourdes.jpg",
         url2: "../../photos/winona.jpg",
         description1: "Where I lived during my first year. They separated students in houses, like Hogwarts in Harry Potter and students believed it was haunted.",
-        description2: "Winona is such a beatiful city, specially in the fall. Winters were rough, specially coming from Brazil"
+        description2: "Winona is such a beatiful city, specially in the fall. That said Winters were rough, specially coming from Brazil."
     },
     2015:{
         paragraph: "I got involved in all the business school activities I could, and during a trip to a company called Nerdery, I fell in love with computer science. I changed my major the next day. Since Winona was a small town I started to go to design and code events in other states and cities to meet developers and companies.",
