@@ -56,6 +56,7 @@
     /* max-width: 55vw; */
     max-width: 1100px;
     margin: 0px;
+    line-height: 110%;
     /* background-color: red; */
   }
 
@@ -171,6 +172,9 @@
   
 
   @media screen and (max-width: 1200px) {
+    .title {
+        font-size: 3.4vw;
+    }
     .journey-grid {
         display: grid;
         grid-template-columns: 1fr;
