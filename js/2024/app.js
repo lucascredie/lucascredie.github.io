@@ -30,7 +30,7 @@ var journey = {
     2020:{
         paragraph: "I got a job at an enterprise B2B SaaS company called Vail Systems in Chicago. There, I came into contact with React and acted as the bridge between the design and development teams. When COVID happened, I wanted to find a way to build a business myself so I started an agency with a lifelong friend Gustavo, building e-commerce stores with Shopify.",
         url1: "../../photos/snow.gif",
-        url2: "../../photos/lucasgustavo.jpg",
+        url2: "../../photos/founders.jpg",
         description1: "Chicago was very very cold, but was a great city. This was the view from my apartment at the time, pretty cozy.",
         description2: "Me and Gustavo trying to look professional"
     },
